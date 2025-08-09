@@ -1,7 +1,7 @@
 
 import express from 'express';
 import Applicant from '../models/Applicant.js';
-import auth from '../middleware/Auth.js';
+import auth from '../middleware/auth.js';
 
 const router = express.Router();
 
